@@ -1,0 +1,14 @@
+{
+  BasedOnStyle: Google,
+  DerivePointerAlignment: false,
+  UseTab: Never,
+  IndentWidth: 4,
+  TabWidth: 4,
+  ColumnLimit: 0,
+  AccessModifierOffset: -4,
+  AllowShortFunctionsOnASingleLine: Inline,
+  InsertBraces: true,
+  PackConstructorInitializers: NextLine,
+  PointerAlignment: Left,
+  ReferenceAlignment: Left,
+}

@@ -1,0 +1,32 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/cpp
+{
+	"name": "POCO C++",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+
+	"customizations": {
+		// Configure properties specific to VS Code.
+		"vscode": {
+			// Set *default* container specific settings.json values on container create.
+			"settings": {},
+			// Add the IDs of extensions you want installed when the container is created.
+			"extensions": [
+				"42Crunch.vscode-openapi",
+				"ckolkman.vscode-postgres",
+				"ms-azuretools.vscode-docker",
+				"ms-python.flake8",
+				"ms-python.python",
+				"ms-vscode.cmake-tools",
+				"ms-vscode.cpptools",
+				"ms-vscode.cpptools-extension-pack",
+				"ms-vscode.cpptools-themes",
+				"ms-vscode.sublime-keybindings",
+				"redhat.vscode-yaml",
+				"systemticks.c4-dsl-extension",
+				"twxs.cmake"
+			]
+		}
+	}
+}
